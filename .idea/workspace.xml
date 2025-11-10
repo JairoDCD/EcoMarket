@@ -4,37 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34559316-eced-4dcd-a9a7-079a43b54e94" name="Changes" comment="Version estable inicial">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deviceManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/ecomarket_info_hub_android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecomarket_info_hub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/eco_categories.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/eco_tips.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/models/category.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/models/product_tip.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/about.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/category.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/home.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/stats.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/tips.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/category_card.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/drawer_menu.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/tip_card.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    <list default="true" id="34559316-eced-4dcd-a9a7-079a43b54e94" name="Changes" comment="feat: Initial commit for EcoMarket Info Hub app&#10;&#10;Initializes the project structure for a new Flutter application, &quot;EcoMarket Info Hub,&quot; designed to provide information about sustainable products.&#10;&#10;This commit includes the foundational setup:&#10;- **Application Entry Point (`main.dart`):** Sets up the main app widget, defines a green-themed `MaterialApp`, and configures named routes for navigation (`/home`, `/category`, `/tips`, `/stats`, `/about`).&#10;- **Screen Implementation:**&#10;    - `HomeScreen`: The main screen featuring a promotional carousel and a grid of ecological categories.&#10;    - `CategoryScreen`: A detail screen to display information and tips specific to a selected category.&#10;    - `TipsScreen`: A dedicated screen to list all available sustainable tips.&#10;    - `StatsScreen`: Displays global environmental impact statistics.&#10;    - `AboutScreen`: Provides information about the app's purpose and features.&#10;- **Data Models:** Introduces `Category` and `ProductTip` models to structure the application's data.&#10;- **Static Data:** Adds initial data for eco-categories and sustainable tips.&#10;- **Widgets:** Creates reusable widgets including `CategoryCard`, `TipCard`, and a `DrawerMenu` for consistent UI and navigation.&#10;- **Configuration:** Includes the initial `pubspec.yaml` with basic dependencies and project metadata.">
+      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +27,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JairoDCD"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JairoDCD/EcoMarket.git",
+    "accountId": "759f2c3b-5de5-4e13-9735-b04010104be4"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -79,10 +68,16 @@
     "ignore.virus.scanning.warn.message": "true",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Saruno/AndroidStudioProjects/EcoMarket/assets",
     "settings.editor.selected.configurable": "flutter.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saruno\AndroidStudioProjects\EcoMarket\assets" />
+    </key>
+  </component>
   <component name="RunManager" selected="Flutter.Unnamed">
     <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
@@ -97,10 +92,20 @@
       <option name="presentableId" value="Default" />
       <updated>1762738587007</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: Initial commit for EcoMarket Info Hub app&#10;&#10;Initializes the project structure for a new Flutter application, &quot;EcoMarket Info Hub,&quot; designed to provide information about sustainable products.&#10;&#10;This commit includes the foundational setup:&#10;- **Application Entry Point (`main.dart`):** Sets up the main app widget, defines a green-themed `MaterialApp`, and configures named routes for navigation (`/home`, `/category`, `/tips`, `/stats`, `/about`).&#10;- **Screen Implementation:**&#10;    - `HomeScreen`: The main screen featuring a promotional carousel and a grid of ecological categories.&#10;    - `CategoryScreen`: A detail screen to display information and tips specific to a selected category.&#10;    - `TipsScreen`: A dedicated screen to list all available sustainable tips.&#10;    - `StatsScreen`: Displays global environmental impact statistics.&#10;    - `AboutScreen`: Provides information about the app's purpose and features.&#10;- **Data Models:** Introduces `Category` and `ProductTip` models to structure the application's data.&#10;- **Static Data:** Adds initial data for eco-categories and sustainable tips.&#10;- **Widgets:** Creates reusable widgets including `CategoryCard`, `TipCard`, and a `DrawerMenu` for consistent UI and navigation.&#10;- **Configuration:** Includes the initial `pubspec.yaml` with basic dependencies and project metadata.">
+      <option name="closed" value="true" />
+      <created>1762741589149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762741589149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version estable inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version estable inicial" />
+    <MESSAGE value="feat: Initial commit for EcoMarket Info Hub app&#10;&#10;Initializes the project structure for a new Flutter application, &quot;EcoMarket Info Hub,&quot; designed to provide information about sustainable products.&#10;&#10;This commit includes the foundational setup:&#10;- **Application Entry Point (`main.dart`):** Sets up the main app widget, defines a green-themed `MaterialApp`, and configures named routes for navigation (`/home`, `/category`, `/tips`, `/stats`, `/about`).&#10;- **Screen Implementation:**&#10;    - `HomeScreen`: The main screen featuring a promotional carousel and a grid of ecological categories.&#10;    - `CategoryScreen`: A detail screen to display information and tips specific to a selected category.&#10;    - `TipsScreen`: A dedicated screen to list all available sustainable tips.&#10;    - `StatsScreen`: Displays global environmental impact statistics.&#10;    - `AboutScreen`: Provides information about the app's purpose and features.&#10;- **Data Models:** Introduces `Category` and `ProductTip` models to structure the application's data.&#10;- **Static Data:** Adds initial data for eco-categories and sustainable tips.&#10;- **Widgets:** Creates reusable widgets including `CategoryCard`, `TipCard`, and a `DrawerMenu` for consistent UI and navigation.&#10;- **Configuration:** Includes the initial `pubspec.yaml` with basic dependencies and project metadata." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Initial commit for EcoMarket Info Hub app&#10;&#10;Initializes the project structure for a new Flutter application, &quot;EcoMarket Info Hub,&quot; designed to provide information about sustainable products.&#10;&#10;This commit includes the foundational setup:&#10;- **Application Entry Point (`main.dart`):** Sets up the main app widget, defines a green-themed `MaterialApp`, and configures named routes for navigation (`/home`, `/category`, `/tips`, `/stats`, `/about`).&#10;- **Screen Implementation:**&#10;    - `HomeScreen`: The main screen featuring a promotional carousel and a grid of ecological categories.&#10;    - `CategoryScreen`: A detail screen to display information and tips specific to a selected category.&#10;    - `TipsScreen`: A dedicated screen to list all available sustainable tips.&#10;    - `StatsScreen`: Displays global environmental impact statistics.&#10;    - `AboutScreen`: Provides information about the app's purpose and features.&#10;- **Data Models:** Introduces `Category` and `ProductTip` models to structure the application's data.&#10;- **Static Data:** Adds initial data for eco-categories and sustainable tips.&#10;- **Widgets:** Creates reusable widgets including `CategoryCard`, `TipCard`, and a `DrawerMenu` for consistent UI and navigation.&#10;- **Configuration:** Includes the initial `pubspec.yaml` with basic dependencies and project metadata." />
   </component>
 </project>
